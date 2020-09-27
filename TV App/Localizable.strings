@@ -14,19 +14,36 @@
 
 // MARK: - Search View controller
 "Search" = "Search";
-"TV Shows by their title" = "TV Shows by their title";
+"Search for TV Shows or people" = "Search for TV Shows or people";
 "No results found" = "No results found";
 "Search for TV Shows by its' title." = "Search for TV Shows by its' title.";
+"Search for people by name." = "Search for people by name.";
 
-// MARK: - Search Movies
-"Search Movies" = "Search Movies";
-"Find movies by their title" = "Find movies by their title";
-"No results found" = "No results found";
-"Search for movies by its' title." = "Search for movies by its' title.";
+// MARK: - Show Details
+"Show Details" = "Show Details";
+"min" = "min";
+"Not available" = "Not available";
+"This TV Show does not have a summary yet" = "This TV Show does not have a summary yet";
 
-// MARK: Movie Details
-"Movie Details" = "Movie Details";
-"Release date: " = "Release date: ";
+// MARK: - Seasons List
+"Seasons" = "Seasons";
+
+// MARK: Episode List
+"Episodes" = "Episodes";
+"Episode %1$i" = "Episode %1$i";
+"Special Episode" = "Special Episode";
+
+// MARK: Episode Details
+"Episode Details" = "Episode Details";
+"Season" = "Season";
+"Season unknown" = "Season unknown";
+"Episode" = "Episode";
+"Episode unknown" = "Episode unknown";
+"Title not available" = "Title not available";
+"This episode does not have a summary yet" = "This episode does not have a summary yet";
+
+// MARK: - Person Details
+"Person Details" = "Person Details";
 
 // MARK: AlertViewModel
 "Connection Timeout" = "Connection Timeout";
