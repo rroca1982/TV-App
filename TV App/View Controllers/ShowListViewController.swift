@@ -90,12 +90,12 @@ class ShowListViewController: UIViewController {
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == SegueIdentifier.movieDetailsFromUpcoming.rawValue {
-//            if let indexPath = tableView.indexPathForSelectedRow {
-//                let destination = segue.destination as! MovieDetailsViewController
-//                    destination.movie = movieListViewModel.movies[indexPath.row]
-//            }
-//        }
+        if segue.identifier == SegueIdentifier.showDetailsFromList.rawValue {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let destination = segue.destination as! ShowDetailsViewController
+                    destination.tvShow = viewModel.items[indexPath.row]
+            }
+        }
     }
 }
 
@@ -113,7 +113,7 @@ extension ShowListViewController : UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: .movieDetailsFromUpcoming, sender: self)
+        performSegue(withIdentifier: .showDetailsFromList, sender: self)
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
@@ -122,7 +122,7 @@ extension ShowListViewController : UITableViewDelegate {
 extension ShowListViewController: SegueHandlerType {
     
     enum SegueIdentifier: String {
-        case movieDetailsFromUpcoming
+        case showDetailsFromList
     }
 }
 

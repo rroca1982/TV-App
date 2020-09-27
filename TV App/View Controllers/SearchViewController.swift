@@ -169,12 +169,12 @@ class SearchViewController: UIViewController {
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == SegueIdentifier.movieDetailsFromSearch.rawValue {
-//            if let indexPath = tableView.indexPathForSelectedRow {
-//                let destination = segue.destination as! MovieDetailsViewController
-//                destination.movie = movieListViewModel.movies[indexPath.row]
-//            }
-//        }
+        if segue.identifier == SegueIdentifier.showDetailsFromSearch.rawValue {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let destination = segue.destination as! ShowDetailsViewController
+                    destination.tvShow = viewModel.items[indexPath.row]
+            }
+        }
     }
 }
 
@@ -198,7 +198,7 @@ extension SearchViewController: UISearchBarDelegate {
 // MARK: - TableView Delegate
 extension SearchViewController : UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: .movieDetailsFromSearch, sender: self)
+        performSegue(withIdentifier: .showDetailsFromSearch, sender: self)
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
@@ -206,6 +206,6 @@ extension SearchViewController : UITableViewDelegate {
 // MARK: - SegueHandlerType conformance
 extension SearchViewController: SegueHandlerType {
     enum SegueIdentifier: String {
-        case movieDetailsFromSearch
+        case showDetailsFromSearch
     }
 }
