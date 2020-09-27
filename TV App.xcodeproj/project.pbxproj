@@ -16,6 +16,16 @@
 		0A79725F251ECCE100064D14 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79725E251ECCE100064D14 /* Show.swift */; };
 		0A797261251ED22C00064D14 /* Data+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A797260251ED22C00064D14 /* Data+Helpers.swift */; };
 		0A797264251EE44600064D14 /* ShowListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A797263251EE44600064D14 /* ShowListViewModel.swift */; };
+		0A89F21C2520C88E00BB544F /* EpisodeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F21B2520C88E00BB544F /* EpisodeDetailsViewController.swift */; };
+		0A89F21E2520CAE100BB544F /* EpisodeDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F21D2520CAE100BB544F /* EpisodeDetailsViewModel.swift */; };
+		0A89F2212520E65D00BB544F /* PersonListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F21F2520E65D00BB544F /* PersonListTableViewCell.swift */; };
+		0A89F2222520E65D00BB544F /* PersonListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A89F2202520E65D00BB544F /* PersonListTableViewCell.xib */; };
+		0A89F2242520E67D00BB544F /* PersonListTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F2232520E67D00BB544F /* PersonListTableViewCellViewModel.swift */; };
+		0A89F2262520ECB600BB544F /* PersonListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F2252520ECB600BB544F /* PersonListViewModel.swift */; };
+		0A89F2282520EE0C00BB544F /* PersonSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F2272520EE0C00BB544F /* PersonSearchResult.swift */; };
+		0A89F22A2520F76E00BB544F /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F2292520F76E00BB544F /* PersonDetailsViewController.swift */; };
+		0A89F22C2521025800BB544F /* PersonDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F22B2521025800BB544F /* PersonDetailsViewModel.swift */; };
+		0A89F22E252107E400BB544F /* CastCredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F22D252107E400BB544F /* CastCredit.swift */; };
 		0A90647E251E7F4500886A5D /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A906454251E7F4500886A5D /* NibLoadableView.swift */; };
 		0A90647F251E7F4500886A5D /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A906455251E7F4500886A5D /* ReusableView.swift */; };
 		0A906480251E7F4500886A5D /* UICollectionView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A906457251E7F4500886A5D /* UICollectionView+Helpers.swift */; };
@@ -112,6 +122,16 @@
 		0A79725E251ECCE100064D14 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 		0A797260251ED22C00064D14 /* Data+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Helpers.swift"; sourceTree = "<group>"; };
 		0A797263251EE44600064D14 /* ShowListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowListViewModel.swift; sourceTree = "<group>"; };
+		0A89F21B2520C88E00BB544F /* EpisodeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailsViewController.swift; sourceTree = "<group>"; };
+		0A89F21D2520CAE100BB544F /* EpisodeDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailsViewModel.swift; sourceTree = "<group>"; };
+		0A89F21F2520E65D00BB544F /* PersonListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonListTableViewCell.swift; sourceTree = "<group>"; };
+		0A89F2202520E65D00BB544F /* PersonListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonListTableViewCell.xib; sourceTree = "<group>"; };
+		0A89F2232520E67D00BB544F /* PersonListTableViewCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonListTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		0A89F2252520ECB600BB544F /* PersonListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewModel.swift; sourceTree = "<group>"; };
+		0A89F2272520EE0C00BB544F /* PersonSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSearchResult.swift; sourceTree = "<group>"; };
+		0A89F2292520F76E00BB544F /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
+		0A89F22B2521025800BB544F /* PersonDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewModel.swift; sourceTree = "<group>"; };
+		0A89F22D252107E400BB544F /* CastCredit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastCredit.swift; sourceTree = "<group>"; };
 		0A906454251E7F4500886A5D /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		0A906455251E7F4500886A5D /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		0A906457251E7F4500886A5D /* UICollectionView+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Helpers.swift"; sourceTree = "<group>"; };
@@ -215,6 +235,10 @@
 		0A797252251E8B5F00064D14 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				0A89F22B2521025800BB544F /* PersonDetailsViewModel.swift */,
+				0A89F2252520ECB600BB544F /* PersonListViewModel.swift */,
+				0A89F2232520E67D00BB544F /* PersonListTableViewCellViewModel.swift */,
+				0A89F21D2520CAE100BB544F /* EpisodeDetailsViewModel.swift */,
 				0A9D90D025201ACF0077BC84 /* SeasonListViewModel.swift */,
 				0A9D90D225201AE70077BC84 /* EpisodeListViewModel.swift */,
 				0A9D90D425201AF80077BC84 /* SimpleTableViewCellViewModel.swift */,
@@ -243,6 +267,8 @@
 		0A797262251ED3C400064D14 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0A89F22D252107E400BB544F /* CastCredit.swift */,
+				0A89F2272520EE0C00BB544F /* PersonSearchResult.swift */,
 				0A9D90CA252016B80077BC84 /* Season.swift */,
 				0A9D90CC252016C50077BC84 /* Episode.swift */,
 				0A9D90CE252016D30077BC84 /* Person.swift */,
@@ -393,6 +419,8 @@
 		0A9D90A8251F9ECA0077BC84 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				0A89F2202520E65D00BB544F /* PersonListTableViewCell.xib */,
+				0A89F21F2520E65D00BB544F /* PersonListTableViewCell.swift */,
 				0A9D90C3252015040077BC84 /* SimpleTableViewCell.xib */,
 				0A9D90C2252015040077BC84 /* SimpleTableViewCell.swift */,
 				0A9D90BA251FE9070077BC84 /* GenreCollectionViewCell.xib */,
@@ -424,6 +452,8 @@
 		0A9D90AB251F9F150077BC84 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0A89F2292520F76E00BB544F /* PersonDetailsViewController.swift */,
+				0A89F21B2520C88E00BB544F /* EpisodeDetailsViewController.swift */,
 				0A9D90C6252016910077BC84 /* SeasonListViewController.swift */,
 				0A9D90C82520169D0077BC84 /* EpisodeListViewController.swift */,
 				0A9D90B4251FD4F20077BC84 /* ShowDetailsViewController.swift */,
@@ -602,6 +632,7 @@
 				0A797254251E8D3E00064D14 /* Localizable.strings in Resources */,
 				0AABE2AE251E7C04001C5C86 /* Assets.xcassets in Resources */,
 				0A9D90BC251FE9080077BC84 /* GenreCollectionViewCell.xib in Resources */,
+				0A89F2222520E65D00BB544F /* PersonListTableViewCell.xib in Resources */,
 				0AABE2AC251E7C01001C5C86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -632,6 +663,7 @@
 				0A9D90BD251FE9080077BC84 /* GenreCollectionViewCell.swift in Sources */,
 				0A90647E251E7F4500886A5D /* NibLoadableView.swift in Sources */,
 				0A797251251E88BB00064D14 /* AlertViewModel.swift in Sources */,
+				0A89F22E252107E400BB544F /* CastCredit.swift in Sources */,
 				0A9D90D125201ACF0077BC84 /* SeasonListViewModel.swift in Sources */,
 				0A906493251E7F4600886A5D /* Gettable.swift in Sources */,
 				0A9D90BF251FE9CD0077BC84 /* GenreCollectionCellViewModel.swift in Sources */,
@@ -646,12 +678,16 @@
 				0A906482251E7F4500886A5D /* UITableView+Helpers.swift in Sources */,
 				0A906497251E7F4600886A5D /* UIView+Helpers.swift in Sources */,
 				0A906487251E7F4600886A5D /* HTTPTask.swift in Sources */,
+				0A89F21E2520CAE100BB544F /* EpisodeDetailsViewModel.swift in Sources */,
 				0A90649A251E7F4600886A5D /* UIColor+Helpers.swift in Sources */,
 				0A906499251E7F4600886A5D /* UIImageView+Helpers.swift in Sources */,
+				0A89F2282520EE0C00BB544F /* PersonSearchResult.swift in Sources */,
 				0A9D90B5251FD4F20077BC84 /* ShowDetailsViewController.swift in Sources */,
+				0A89F22A2520F76E00BB544F /* PersonDetailsViewController.swift in Sources */,
 				0A906484251E7F4600886A5D /* StoryboardIDHandlerType.swift in Sources */,
 				0A906495251E7F4600886A5D /* Date+Helpers.swift in Sources */,
 				0A9D9099251F71B10077BC84 /* ShowListViewController.swift in Sources */,
+				0A89F2212520E65D00BB544F /* PersonListTableViewCell.swift in Sources */,
 				0A9D90C4252015040077BC84 /* SimpleTableViewCell.swift in Sources */,
 				0A79725B251EC3F400064D14 /* PeopleService.swift in Sources */,
 				0A906491251E7F4600886A5D /* Deleteable.swift in Sources */,
@@ -660,6 +696,7 @@
 				0A906489251E7F4600886A5D /* HTTPMethod.swift in Sources */,
 				0A90648A251E7F4600886A5D /* SwiftyRestKitError.swift in Sources */,
 				0A797256251E8F6000064D14 /* TVMazeAPI.swift in Sources */,
+				0A89F2262520ECB600BB544F /* PersonListViewModel.swift in Sources */,
 				0A90649D251E7F4600886A5D /* String+Helpers.swift in Sources */,
 				0A90648B251E7F4600886A5D /* NetworkManager.swift in Sources */,
 				0A79725F251ECCE100064D14 /* Show.swift in Sources */,
@@ -670,6 +707,7 @@
 				0A90648C251E7F4600886A5D /* ParameterEncoder.swift in Sources */,
 				0A9D909F251F76A60077BC84 /* TableViewDataSource.swift in Sources */,
 				0A9D90B1251FBAE70077BC84 /* ShowSearchResult.swift in Sources */,
+				0A89F22C2521025800BB544F /* PersonDetailsViewModel.swift in Sources */,
 				0A9D90C92520169D0077BC84 /* EpisodeListViewController.swift in Sources */,
 				0A906481251E7F4500886A5D /* UIStoryboard+Helpers.swift in Sources */,
 				0A906485251E7F4600886A5D /* Dispatcher.swift in Sources */,
@@ -682,6 +720,7 @@
 				0A9D90D525201AF80077BC84 /* SimpleTableViewCellViewModel.swift in Sources */,
 				0A9D90D325201AE70077BC84 /* EpisodeListViewModel.swift in Sources */,
 				0A906490251E7F4600886A5D /* Service.swift in Sources */,
+				0A89F21C2520C88E00BB544F /* EpisodeDetailsViewController.swift in Sources */,
 				0A9D90AD251FA0260077BC84 /* SearchViewController.swift in Sources */,
 				0A9D90CB252016B80077BC84 /* Season.swift in Sources */,
 				0A906498251E7F4600886A5D /* ErrorHandler.swift in Sources */,
@@ -691,6 +730,7 @@
 				0A9D90C1251FECA80077BC84 /* ShowDetailsViewModel.swift in Sources */,
 				0AABE2A7251E7C01001C5C86 /* SceneDelegate.swift in Sources */,
 				0A9D90CD252016C50077BC84 /* Episode.swift in Sources */,
+				0A89F2242520E67D00BB544F /* PersonListTableViewCellViewModel.swift in Sources */,
 				0A9D90CF252016D30077BC84 /* Person.swift in Sources */,
 				0A9D90AF251FA17D0077BC84 /* TVAppSegmentedControl.swift in Sources */,
 				0A90648F251E7F4600886A5D /* EndPointType.swift in Sources */,
@@ -875,7 +915,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rodolforoca.TV-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -892,7 +932,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rodolforoca.TV-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

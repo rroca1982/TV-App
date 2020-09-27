@@ -28,7 +28,13 @@ class EpisodeListViewController: UIViewController {
         navigationController?.navigationBar.setPrimaryLargeTitleAppearance()
         
         datasource = TableViewDataSource<SimpleTableViewCell, EpisodeListViewModel>(viewModel: viewModel, tableView: tableView) { cell, model in
-            let title = "Episode \(model.number)"
+            var title = ""
+            if let number = model.number {
+                title = "Episode \(number)"
+            } else {
+                title = "Special Episode"
+            }
+            
             let cellViewModel = SimpleTableViewCellViewModel(model: title)
             cell.update(with: cellViewModel)
         }
@@ -82,8 +88,8 @@ class EpisodeListViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == SegueIdentifier.episodeDetailsFromList.rawValue {
             if let indexPath = tableView.indexPathForSelectedRow {
-                let destination = segue.destination as! EpisodeListViewController
-//                    destination.season = viewModel.items[indexPath.row]
+                let destination = segue.destination as! EpisodeDetailsViewController
+                    destination.episode = viewModel.items[indexPath.row]
             }
         }
     }

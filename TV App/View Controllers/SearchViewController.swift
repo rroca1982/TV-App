@@ -25,8 +25,11 @@ class SearchViewController: UIViewController {
     private var isSearching = false
     private var searchType: SearchType = .show
     
-    private var viewModel = ShowListViewModel(service: SearchService())
-    private var datasource: TableViewDataSource<ShowListTableViewCell, ShowListViewModel>!
+    private var showsViewModel = ShowListViewModel(service: SearchService())
+    private var peopleViewModel = PersonListViewModel(service: SearchService())
+    
+    private var showDatasource: TableViewDataSource<ShowListTableViewCell, ShowListViewModel>!
+    private var personDatasource: TableViewDataSource<PersonListTableViewCell, PersonListViewModel>!
     
     // MARK: - View controller life cycle
     override func viewDidLoad() {
@@ -37,12 +40,17 @@ class SearchViewController: UIViewController {
         navigationController?.navigationBar.setPrimaryLargeTitleAppearance()
         extendedLayoutIncludesOpaqueBars = true
         
-        datasource = TableViewDataSource<ShowListTableViewCell, ShowListViewModel>(viewModel: viewModel, tableView: tableView) { cell, model in
+        showDatasource = TableViewDataSource<ShowListTableViewCell, ShowListViewModel>(viewModel: showsViewModel, tableView: tableView) { cell, model in
             let cellViewModel = ShowListTableViewCellViewModel(model: model)
             cell.update(with: cellViewModel)
         }
         
-        tableView.dataSource = datasource
+        personDatasource = TableViewDataSource<PersonListTableViewCell, PersonListViewModel>(viewModel: peopleViewModel, tableView: tableView) { cell, model in
+            let cellViewModel = PersonListTableViewCellViewModel(model: model)
+            cell.update(with: cellViewModel)
+        }
+        
+        tableView.dataSource = showDatasource
         tableView.delegate = self
         tableView.tableFooterView = UIView.init(frame: .zero)
         
@@ -56,7 +64,7 @@ class SearchViewController: UIViewController {
         searchController.obscuresBackgroundDuringPresentation = false
         
         let searchBar = searchController.searchBar
-        searchBar.placeholder = "TV Shows by their title".localized()
+        searchBar.placeholder = "Search for TV Shows or people".localized()
         searchBar.searchBarStyle = .default
         searchBar.searchTextField.backgroundColor = .white
         searchBar.tintColor = UIColor.white
@@ -70,25 +78,32 @@ class SearchViewController: UIViewController {
     // MARK: - Search methods
     func search(searchTerm: String) {
         isSearching = true
-
-        viewModel.removeAllItems()
-
+        
         hideNoResultsLabel()
         
         activityIndicator.startAnimating()
         
         switch searchType {
         case .show:
+            showsViewModel.removeAllItems()
             searchShows(searchTerm)
         case .people:
-            searchShows(searchTerm)
+            peopleViewModel.removeAllItems()
+            searchPeople(searchTerm)
         }
     }
     
     @objc func clearSearch() {
         isSearching = false
         
-        viewModel.removeAllItems()
+        switch searchType {
+        case .show:
+            showsViewModel.removeAllItems()
+            tableView.dataSource = showDatasource
+        case .people:
+            peopleViewModel.removeAllItems()
+            tableView.dataSource = personDatasource
+        }
         tableView.reloadData()
 
         showNoResultsLabel()
@@ -96,13 +111,13 @@ class SearchViewController: UIViewController {
     
     // MARK: - Data Fetch
     fileprivate func searchShows(_ searchTerm: String) {
-        viewModel.searchShows(title: searchTerm) { [weak self] (result) in
+        showsViewModel.searchShows(title: searchTerm) { [weak self] (result) in
             DispatchQueue.main.async {
                 self?.activityIndicator.stopAnimating()
                 
                 switch result {
                 case .Success:
-                    if self?.viewModel.items.count == 0 {
+                    if self?.showsViewModel.items.count == 0 {
                         self?.showNoResultsLabel()
                     } else {
                         self?.tableView.reloadData()
@@ -117,13 +132,13 @@ class SearchViewController: UIViewController {
     }
     
     fileprivate func searchPeople(_ searchTerm: String) {
-        viewModel.searchShows(title: searchTerm) { [weak self] (result) in
+        peopleViewModel.searchPerson(name: searchTerm) { [weak self] (result) in
             DispatchQueue.main.async {
                 self?.activityIndicator.stopAnimating()
                 
                 switch result {
                 case .Success:
-                    if self?.viewModel.items.count == 0 {
+                    if self?.peopleViewModel.items.count == 0 {
                         self?.showNoResultsLabel()
                     } else {
                         self?.tableView.reloadData()
@@ -141,9 +156,13 @@ class SearchViewController: UIViewController {
     @IBAction func segmentedControlValueChanged(_ sender: TVAppSegmentedControl) {
         if sender.selectedSegmentIndex == 0 {
             searchType = .show
+            tableView.dataSource = showDatasource
         } else {
             searchType = .people
+            tableView.dataSource = personDatasource
         }
+        tableView.reloadData()
+        updateNoResultsLabelText()
     }
     
     // MARK: - Helper methods
@@ -163,7 +182,12 @@ class SearchViewController: UIViewController {
         if isSearching {
             noResultsLabel.text = "No results found".localized()
         } else {
-            noResultsLabel.text = "Search for TV Shows by its' title.".localized()
+            switch searchType {
+            case .show:
+                noResultsLabel.text = "Search for TV Shows by its' title.".localized()
+            case .people:
+                noResultsLabel.text = "Search for people by name.".localized()
+            }
         }
     }
     
@@ -172,7 +196,12 @@ class SearchViewController: UIViewController {
         if segue.identifier == SegueIdentifier.showDetailsFromSearch.rawValue {
             if let indexPath = tableView.indexPathForSelectedRow {
                 let destination = segue.destination as! ShowDetailsViewController
-                    destination.tvShow = viewModel.items[indexPath.row]
+                    destination.tvShow = showsViewModel.items[indexPath.row]
+            }
+        } else if segue.identifier == SegueIdentifier.personDetailsFromSearch.rawValue {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let destination = segue.destination as! PersonDetailsViewController
+                destination.person = peopleViewModel.items[indexPath.row]
             }
         }
     }
@@ -198,7 +227,14 @@ extension SearchViewController: UISearchBarDelegate {
 // MARK: - TableView Delegate
 extension SearchViewController : UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: .showDetailsFromSearch, sender: self)
+        
+        switch searchType {
+        case .show:
+            performSegue(withIdentifier: .showDetailsFromSearch, sender: self)
+        case .people:
+            performSegue(withIdentifier: .personDetailsFromSearch, sender: self)
+        }
+        
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
@@ -207,5 +243,6 @@ extension SearchViewController : UITableViewDelegate {
 extension SearchViewController: SegueHandlerType {
     enum SegueIdentifier: String {
         case showDetailsFromSearch
+        case personDetailsFromSearch
     }
 }

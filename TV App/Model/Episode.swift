@@ -10,10 +10,11 @@ import Foundation
 
 struct Episode: Decodable {
     let id: Int
-    let number: Int
-    let name: String
-    let season: Int
+    let number: Int?
+    let name: String?
+    let season: Int?
     let image: Image?
+    let summary: String?
 
     enum CodingKeys: String, CodingKey {
         case id
@@ -21,6 +22,7 @@ struct Episode: Decodable {
         case name
         case season
         case image
+        case summary
     }
 }
 

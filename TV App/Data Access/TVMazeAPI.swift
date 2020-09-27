@@ -18,7 +18,7 @@ enum TVMazeAPI {
     case episodeDetails(episodeID: Int)
 
     //MARK: People
-    
+    case castCredits(personID: Int)
     
     //MARK: Search
     case searchShows(searchTerm: String)
@@ -61,14 +61,16 @@ extension TVMazeAPI: EndPointType {
         case .episodeDetails(let episodeID):
             return "episodes/\(episodeID)"
             
+        //MARK: People
+        case .castCredits(let personID):
+            return "people/\(personID)/castcredits"
+
         //MARK: Search
         case .searchShows:
             return "search/shows"
-        case .searchPeople(let searchTerm):
-            return ""
+        case .searchPeople:
+            return "search/people"
         }
-        
-        
     }
     
     //MARK: -
@@ -95,12 +97,18 @@ extension TVMazeAPI: EndPointType {
         case .episodeDetails:
             return .requestWith(bodyParameters: nil, urlParameters: nil)
             
+        //MARK: People
+        case .castCredits:
+            let urlParameters: Parameters = ["embed" : "show"]
+            return .requestWith(bodyParameters: nil, urlParameters: urlParameters)
+        
         //MARK: Search
         case .searchShows(let searchTerm):
             let urlParameters: Parameters = ["q" : searchTerm]
             return .requestWith(bodyParameters: nil, urlParameters: urlParameters)
         case .searchPeople(let searchTerm):
-            return .requestWith(bodyParameters: nil, urlParameters: nil)
+            let urlParameters: Parameters = ["q" : searchTerm]
+            return .requestWith(bodyParameters: nil, urlParameters: urlParameters)
         }
     }
     

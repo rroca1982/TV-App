@@ -10,15 +10,15 @@ import UIKit
 
 class ShowDetailsViewController: UIViewController {
 
-    // MARK: - Properties
+    // MARK: - Outlets
     @IBOutlet private weak var posterHoldingView: UIView!
     @IBOutlet private weak var posterImageView: UIImageView!
     @IBOutlet private weak var tvShowTitleLabel: UILabel!
     @IBOutlet private weak var runtimeLabel: UILabel!
     @IBOutlet private weak var summaryTextLabel: UILabel!
-    @IBOutlet weak var daysLabel: UILabel!
-    @IBOutlet weak var timeLabel: UILabel!
-    @IBOutlet weak var buttonContainer: UIView!
+    @IBOutlet private weak var daysLabel: UILabel!
+    @IBOutlet private weak var timeLabel: UILabel!
+    @IBOutlet private weak var buttonContainer: UIView!
     
     @IBOutlet private weak var collectionView: UICollectionView!
     @IBOutlet private weak var collectionViewHeightConstraint: NSLayoutConstraint!
