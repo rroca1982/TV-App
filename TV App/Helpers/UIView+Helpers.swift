@@ -11,6 +11,14 @@ import UIKit
 extension UIView {
     
     // MARK: - Shadows
+    func addDefaultDropShadow() {
+        let defaultOffset: CGSize = CGSize(width: 0, height: 0)
+        let defaultRadius: CGFloat = 2.0
+        let defaultOpacity: Float = 0.5
+
+        self.addDropShadow(color: .black, offSet: defaultOffset, radius: defaultRadius, opacity: defaultOpacity)
+    }
+    
     func addDefaultPosterShadow() {
         let defaultOffset: CGSize = CGSize(width: 0, height: 5)
         let defaultRadius: CGFloat = 6.0

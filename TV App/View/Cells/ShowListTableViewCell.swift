@@ -1,9 +1,9 @@
 //
 //  ShowListTableViewCell.swift
-//  UpcomingMovies
+//  TV App
 //
-//  Created by Rodolfo Roca on 6/29/19.
-//  Copyright © 2019 Rodolfo Roca. All rights reserved.
+//  Created by Rodolfo Roca on 9/25/20.
+//  Copyright © 2020 Rodolfo. All rights reserved.
 //
 
 import UIKit

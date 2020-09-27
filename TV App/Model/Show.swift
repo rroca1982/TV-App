@@ -27,16 +27,6 @@ struct Show: Decodable {
         case schedule
     }
     
-    struct Image: Decodable {
-        let medium: String
-        let original: String
-        
-        enum CodingKeys: String, CodingKey {
-            case medium
-            case original
-        }
-    }
-    
     struct Schedule: Decodable {
         let time: String
         let days: [String]
