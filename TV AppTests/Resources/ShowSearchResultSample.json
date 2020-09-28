@@ -1,0 +1,564 @@
+[
+    {
+        "score": 17.943031,
+        "show": {
+            "id": 123,
+            "url": "http://www.tvmaze.com/shows/123/lost",
+            "name": "Lost",
+            "type": "Scripted",
+            "language": "English",
+            "genres": [
+                "Drama",
+                "Adventure",
+                "Supernatural"
+            ],
+            "status": "Ended",
+            "runtime": 60,
+            "premiered": "2004-09-22",
+            "officialSite": "http://abc.go.com/shows/lost",
+            "schedule": {
+                "time": "21:00",
+                "days": [
+                    "Tuesday"
+                ]
+            },
+            "rating": {
+                "average": 8.4
+            },
+            "weight": 92,
+            "network": {
+                "id": 3,
+                "name": "ABC",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                }
+            },
+            "webChannel": null,
+            "externals": {
+                "tvrage": 4284,
+                "thetvdb": 73739,
+                "imdb": "tt0411008"
+            },
+            "image": {
+                "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/1389.jpg",
+                "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/1389.jpg"
+            },
+            "summary": "<p>Out of the blackness, the first thing Jack senses is pain. Then burning sun. A Bamboo forest. Smoke. Screams. With a rush comes the horrible awareness that the plane he was on tore apart in mid-air and crashed on a Pacific island. From there it's a blur, as his doctor's instinct kicks in: people need his help.</p><p>Stripped of everything, the 48 survivors scavenge what they can from the plane for their survival. Some panic. Some pin their hopes on rescue. A few find inner strength they never knew they had -- like Kate, who, with no medical training, suddenly finds herself suturing the doctor's wounds. Hurley - a man with a warm sense of humor despite the desperate situation - does his best to keep his cool as he helps those around him to survive. Charlie is a faded rock star who harbors a painful secret. Sayid is a Middle Eastern man who must wrestle with the racial profiling directed at him by some of his fellow survivors. Jin and Sun are a Korean couple whose traditions, values and language are foreign, and thus causes much to get lost in the translation. Sawyer has an air of danger surrounding him, and his intense sense of mistrust for everyone around him could prove to be fatal to his fellow castaways. Michael has just gained custody of his nine-year-old son, Walt, after the death of his ex-wife - they are a father and son who don't even know each other. Locke is a mysterious man who keeps to himself, and who harbors a deeper connection to the island than any of the others. Self-centered Shannon - who actually gives herself a pedicure amid the chaos - and her estranged controlling brother, Boone , constantly bicker and must learn to get along if they are to survive. And young Claire is eight months pregnant and ill-prepared for the hardships of motherhood - especially on a deserted island.</p>",
+            "updated": 1598614456,
+            "_links": {
+                "self": {
+                    "href": "http://api.tvmaze.com/shows/123"
+                },
+                "previousepisode": {
+                    "href": "http://api.tvmaze.com/episodes/10260"
+                }
+            }
+        }
+    },
+    {
+        "score": 14.082736,
+        "show": {
+            "id": 45853,
+            "url": "http://www.tvmaze.com/shows/45853/lost-resort",
+            "name": "Lost Resort",
+            "type": "Reality",
+            "language": "English",
+            "genres": [
+                "Comedy",
+                "Travel"
+            ],
+            "status": "Running",
+            "runtime": null,
+            "premiered": "2020-07-23",
+            "officialSite": null,
+            "schedule": {
+                "time": "",
+                "days": []
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 95,
+            "network": {
+                "id": 32,
+                "name": "TBS",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                }
+            },
+            "webChannel": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": null,
+                "imdb": null
+            },
+            "image": {
+                "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/265/664647.jpg",
+                "original": "http://static.tvmaze.com/uploads/images/original_untouched/265/664647.jpg"
+            },
+            "summary": "<p><b>Lost Resort</b> follows a group of strangers who are immersed in a three-week-long Costa Rican retreat led by a colorful team of alternative healers. From a married couple on the brink, to a mother/daughter pair with serious trust issues and a hothead with a painful past, the guests come from all walks of life hoping to leave transformed. At their breaking points and fed up with traditional Western therapies, they'll experience everything from rage rituals and shamanic cacao ceremonies to orgasmic dance. But the drama only intensifies between sessions as this motley crew hooks up, breaks up and opens up in ways they'd never expect.</p>",
+            "updated": 1598317031,
+            "_links": {
+                "self": {
+                    "href": "http://api.tvmaze.com/shows/45853"
+                },
+                "previousepisode": {
+                    "href": "http://api.tvmaze.com/episodes/1918964"
+                }
+            }
+        }
+    },
+    {
+        "score": 14.057869,
+        "show": {
+            "id": 42564,
+            "url": "http://www.tvmaze.com/shows/42564/paradise-lost",
+            "name": "Paradise Lost",
+            "type": "Scripted",
+            "language": "English",
+            "genres": [
+                "Drama",
+                "Mystery"
+            ],
+            "status": "Ended",
+            "runtime": 60,
+            "premiered": "2020-04-13",
+            "officialSite": "https://spectrumoriginals.com/paradise-lost/",
+            "schedule": {
+                "time": "",
+                "days": []
+            },
+            "rating": {
+                "average": 8.5
+            },
+            "weight": 94,
+            "network": null,
+            "webChannel": {
+                "id": 316,
+                "name": "Spectrum On Demand",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                }
+            },
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 377333,
+                "imdb": "tt10306320"
+            },
+            "image": {
+                "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/248/622000.jpg",
+                "original": "http://static.tvmaze.com/uploads/images/original_untouched/248/622000.jpg"
+            },
+            "summary": "<p><b>Paradise Lost</b> is about a psychiatrist who moves with her family from California to her husband's hometown in Mississippi only to uncover shameful secrets that irrevocably change the lives of everyone involved.</p>",
+            "updated": 1600713483,
+            "_links": {
+                "self": {
+                    "href": "http://api.tvmaze.com/shows/42564"
+                },
+                "previousepisode": {
+                    "href": "http://api.tvmaze.com/episodes/1837629"
+                }
+            }
+        }
+    },
+    {
+        "score": 13.488904,
+        "show": {
+            "id": 503,
+            "url": "http://www.tvmaze.com/shows/503/the-lost-room",
+            "name": "The Lost Room",
+            "type": "Scripted",
+            "language": "English",
+            "genres": [
+                "Drama",
+                "Science-Fiction",
+                "Thriller"
+            ],
+            "status": "Ended",
+            "runtime": 90,
+            "premiered": "2006-12-11",
+            "officialSite": null,
+            "schedule": {
+                "time": "21:00",
+                "days": [
+                    "Wednesday"
+                ]
+            },
+            "rating": {
+                "average": 8.1
+            },
+            "weight": 92,
+            "network": {
+                "id": 16,
+                "name": "Syfy",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                }
+            },
+            "webChannel": null,
+            "externals": {
+                "tvrage": 14688,
+                "thetvdb": 79637,
+                "imdb": "tt0830361"
+            },
+            "image": {
+                "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/4/10835.jpg",
+                "original": "http://static.tvmaze.com/uploads/images/original_untouched/4/10835.jpg"
+            },
+            "summary": "<p>A mysterious event at the Sunshine Motel caused ordinary things in Room 10 to transform into indestructible objects with extraordinary powers. Detective Joe Miller discovers the dangerous potential of these objects when his daughter becomes lost in the room. His only hope of saving her is to find The Key, but shadowy figures will stop at nothing to keep it - and the other objects - for themselves.</p>",
+            "updated": 1573686068,
+            "_links": {
+                "self": {
+                    "href": "http://api.tvmaze.com/shows/503"
+                },
+                "previousepisode": {
+                    "href": "http://api.tvmaze.com/episodes/45905"
+                }
+            }
+        }
+    },
+    {
+        "score": 13.38672,
+        "show": {
+            "id": 502,
+            "url": "http://www.tvmaze.com/shows/502/the-lost-world",
+            "name": "The Lost World",
+            "type": "Scripted",
+            "language": "English",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Fantasy"
+            ],
+            "status": "Ended",
+            "runtime": 60,
+            "premiered": "1999-04-03",
+            "officialSite": null,
+            "schedule": {
+                "time": "",
+                "days": []
+            },
+            "rating": {
+                "average": 8
+            },
+            "weight": 68,
+            "network": {
+                "id": 72,
+                "name": "Syndication",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                }
+            },
+            "webChannel": null,
+            "externals": {
+                "tvrage": 5949,
+                "thetvdb": 78457,
+                "imdb": "tt0240278"
+            },
+            "image": {
+                "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/4/10831.jpg",
+                "original": "http://static.tvmaze.com/uploads/images/original_untouched/4/10831.jpg"
+            },
+            "summary": "<p>Determined to prove the existence of The Lost World, dashing adventurer and scholar Professor Edward Challenger mounts a British expedition team consisting of a mismatched group of enthusiasts, all with less than selfless reasons for making the journey. Traveling through the uncharted Amazon jungle to this prehistoric plateau, the group encounters incredible adventures: tribal headhunters, vicious ape men, giant crocodiles, and terrifying dinosaurs!</p>",
+            "updated": 1577255949,
+            "_links": {
+                "self": {
+                    "href": "http://api.tvmaze.com/shows/502"
+                },
+                "previousepisode": {
+                    "href": "http://api.tvmaze.com/episodes/45902"
+                }
+            }
+        }
+    },
+    {
+        "score": 13.244981,
+        "show": {
+            "id": 48073,
+            "url": "http://www.tvmaze.com/shows/48073/lost-speedways",
+            "name": "Lost Speedways",
+            "type": "Documentary",
+            "language": "English",
+            "genres": [],
+            "status": "To Be Determined",
+            "runtime": 25,
+            "premiered": "2020-07-15",
+            "officialSite": "https://www.peacocktv.com/watch/asset/tv/lost-speedways/8244217463726854112",
+            "schedule": {
+                "time": "",
+                "days": []
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 99,
+            "network": null,
+            "webChannel": {
+                "id": 347,
+                "name": "Peacock",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                }
+            },
+            "externals": {
+                "tvrage": null,
+                "thetvdb": null,
+                "imdb": null
+            },
+            "image": {
+                "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/265/662893.jpg",
+                "original": "http://static.tvmaze.com/uploads/images/original_untouched/265/662893.jpg"
+            },
+            "summary": "<p>Created and hosted by Dale Earnhardt Jr., <b>Lost Speedways</b> is an exploratory look at great racing cathedrals of the past. Dale Jr. and co-host Matthew Dillner tell the stories of speedways that have been forgotten, abandoned, and overtaken by nature.</p>",
+            "updated": 1594820945,
+            "_links": {
+                "self": {
+                    "href": "http://api.tvmaze.com/shows/48073"
+                },
+                "previousepisode": {
+                    "href": "http://api.tvmaze.com/episodes/1902442"
+                }
+            }
+        }
+    },
+    {
+        "score": 13.073285,
+        "show": {
+            "id": 48988,
+            "url": "http://www.tvmaze.com/shows/48988/lost-romance",
+            "name": "Lost Romance",
+            "type": "Scripted",
+            "language": "Chinese",
+            "genres": [
+                "Drama",
+                "Comedy",
+                "Romance"
+            ],
+            "status": "Running",
+            "runtime": 90,
+            "premiered": "2020-06-07",
+            "officialSite": "https://www.ttv.com.tw/drama20/LostRomance/default.asp",
+            "schedule": {
+                "time": "22:00",
+                "days": [
+                    "Sunday"
+                ]
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 75,
+            "network": {
+                "id": 347,
+                "name": "SET TV",
+                "country": {
+                    "name": "Taiwan, Province of China",
+                    "code": "TW",
+                    "timezone": "Asia/Taipei"
+                }
+            },
+            "webChannel": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": null,
+                "imdb": "tt12495978"
+            },
+            "image": {
+                "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/263/658582.jpg",
+                "original": "http://static.tvmaze.com/uploads/images/original_untouched/263/658582.jpg"
+            },
+            "summary": "<p>Zheng Xiao En works as an editor of romance novels at a publishing company, and secretly dreams about falling in love with a CEO.</p><p>When she isn't working, she spends her days daydreaming about He Tian Hang, the handsome chief executive of the company that occupies the building opposite her company's offices.</p><p>One day, Zheng Xiao En magically finds herself transported into the pages of a romance novel – and comes face-to-face with her crush He Tian Hang.</p><p>However, she soon discovers that in this fictional universe, his name is Si Tu Ao Ran – and his personality is very different.</p><p>She hopes to use all the tips and tricks she has learned from the romance novels she has edited to help snare his heart. But she soon discovers that in this fictional world, she isn't the heroic female lead – and instead is an evil side character!</p><p>Can she flip the story on its head – and end up with the man of her dreams?</p>",
+            "updated": 1600872927,
+            "_links": {
+                "self": {
+                    "href": "http://api.tvmaze.com/shows/48988"
+                },
+                "previousepisode": {
+                    "href": "http://api.tvmaze.com/episodes/1895525"
+                },
+                "nextepisode": {
+                    "href": "http://api.tvmaze.com/episodes/1895526"
+                }
+            }
+        }
+    },
+    {
+        "score": 12.883092,
+        "show": {
+            "id": 10467,
+            "url": "http://www.tvmaze.com/shows/10467/the-lost-tomb",
+            "name": "The Lost Tomb",
+            "type": "Scripted",
+            "language": "Chinese",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Mystery"
+            ],
+            "status": "Ended",
+            "runtime": 48,
+            "premiered": "2015-06-12",
+            "officialSite": "http://www.daomubiji.com/dao-mu-bi-ji-quan-ji",
+            "schedule": {
+                "time": "",
+                "days": [
+                    "Friday"
+                ]
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 0,
+            "network": null,
+            "webChannel": {
+                "id": 67,
+                "name": "iQIYi",
+                "country": {
+                    "name": "China",
+                    "code": "CN",
+                    "timezone": "Asia/Shanghai"
+                }
+            },
+            "externals": {
+                "tvrage": null,
+                "thetvdb": null,
+                "imdb": null
+            },
+            "image": {
+                "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/35/88573.jpg",
+                "original": "http://static.tvmaze.com/uploads/images/original_untouched/35/88573.jpg"
+            },
+            "summary": "<p>Wu Xie is an antique shop owner who comes from a family of tomb raiders. As he continues the family trade with his team of tomb raiders, he finds lost treasures of the Warring States as well as the answers to the tragedies of his family's past. With the help of his grandfather's notes and his team – the quiet Zhang Qiling, the resourceful Pang Zi, the experienced Wu Sanxing, San Xing's loyal helper Pan Zi, and the skillful Ah Ning – Wu Xie sets out to find the lost treasures as well as the people responsible for the massacre of his family.</p>",
+            "updated": 1600098663,
+            "_links": {
+                "self": {
+                    "href": "http://api.tvmaze.com/shows/10467"
+                },
+                "previousepisode": {
+                    "href": "http://api.tvmaze.com/episodes/538745"
+                }
+            }
+        }
+    },
+    {
+        "score": 12.467616,
+        "show": {
+            "id": 12,
+            "url": "http://www.tvmaze.com/shows/12/lost-girl",
+            "name": "Lost Girl",
+            "type": "Scripted",
+            "language": "English",
+            "genres": [
+                "Drama",
+                "Fantasy",
+                "Horror"
+            ],
+            "status": "Ended",
+            "runtime": 60,
+            "premiered": "2010-09-12",
+            "officialSite": "http://www.showcase.ca/lostgirl",
+            "schedule": {
+                "time": "22:00",
+                "days": [
+                    "Sunday"
+                ]
+            },
+            "rating": {
+                "average": 8.1
+            },
+            "weight": 97,
+            "network": {
+                "id": 6,
+                "name": "Showcase",
+                "country": {
+                    "name": "Canada",
+                    "code": "CA",
+                    "timezone": "America/Halifax"
+                }
+            },
+            "webChannel": null,
+            "externals": {
+                "tvrage": 26401,
+                "thetvdb": 182061,
+                "imdb": "tt1429449"
+            },
+            "image": {
+                "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/137.jpg",
+                "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/137.jpg"
+            },
+            "summary": "<p><b>Lost Girl</b> follows supernatural seductress Bo, a Succubus who feeds on the sexual energy of humans. Growing up with human parents, Bo had no reason to believe she was anything other than the girl next door — until she drained her boyfriend to death in their first sexual encounter. Now she has hit the road alone and afraid. <br /> She discovers she is one of the Fae, creatures of legend and folklore, who pass as humans while feeding off them secretly and in different ways, as they have for millennia. Relieved yet horrified to find out that she is not alone, Bo decides to take the middle path between the humans and the Fae while embarking on a personal mission to unlock the secrets of her origin.</p><p>With the help of her human sidekick, Kenzi, and Dyson, a sexy police detective, Bo takes on a challenge every week helping a Fae or human client who comes to her to solve a mystery, or to right a wrong.</p>",
+            "updated": 1587112172,
+            "_links": {
+                "self": {
+                    "href": "http://api.tvmaze.com/shows/12"
+                },
+                "previousepisode": {
+                    "href": "http://api.tvmaze.com/episodes/316120"
+                }
+            }
+        }
+    },
+    {
+        "score": 12.162373,
+        "show": {
+            "id": 17377,
+            "url": "http://www.tvmaze.com/shows/17377/lost",
+            "name": "Lost",
+            "type": "Reality",
+            "language": null,
+            "genres": [],
+            "status": "Ended",
+            "runtime": 60,
+            "premiered": "2001-09-05",
+            "officialSite": null,
+            "schedule": {
+                "time": "",
+                "days": [
+                    "Wednesday"
+                ]
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 0,
+            "network": {
+                "id": 1,
+                "name": "NBC",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                }
+            },
+            "webChannel": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 72906,
+                "imdb": "tt0292816"
+            },
+            "image": null,
+            "summary": "<p>Three pairs of globe-trotting strangers must work together to be the first team to reach the Statue of Liberty from a secret drop location. The winners will split the prize of $200,000. Over the life of the series, two different adventures were scheduled to take place.</p>",
+            "updated": 1581208520,
+            "_links": {
+                "self": {
+                    "href": "http://api.tvmaze.com/shows/17377"
+                },
+                "previousepisode": {
+                    "href": "http://api.tvmaze.com/episodes/792031"
+                }
+            }
+        }
+    }
+]

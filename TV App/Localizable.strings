@@ -1,0 +1,74 @@
+/* 
+  Localizable.strings
+  TV App
+
+  Created by Rodolfo Roca on 9/25/20.
+  Copyright © 2020 Rodolfo Roca. All rights reserved.
+*/
+
+// MARK: - Show List
+"TV Shows" = "TV Shows";
+
+// MARK: - Show List Cell
+"Not available" = "Not available";
+
+// MARK: - Search View controller
+"Search" = "Search";
+"Search for TV Shows or people" = "Search for TV Shows or people";
+"No results found" = "No results found";
+"Search for TV Shows by its' title." = "Search for TV Shows by its' title.";
+"Search for people by name." = "Search for people by name.";
+
+// MARK: - Show Details
+"Show Details" = "Show Details";
+"min" = "min";
+"Not available" = "Not available";
+"This TV Show does not have a summary yet" = "This TV Show does not have a summary yet";
+
+// MARK: - Seasons List
+"Seasons" = "Seasons";
+
+// MARK: Episode List
+"Episodes" = "Episodes";
+"Episode %1$i" = "Episode %1$i";
+"Special Episode" = "Special Episode";
+
+// MARK: Episode Details
+"Episode Details" = "Episode Details";
+"Season" = "Season";
+"Season unknown" = "Season unknown";
+"Episode" = "Episode";
+"Episode unknown" = "Episode unknown";
+"Title not available" = "Title not available";
+"This episode does not have a summary yet" = "This episode does not have a summary yet";
+
+// MARK: - Person Details
+"Person Details" = "Person Details";
+
+// MARK: AlertViewModel
+"Connection Timeout" = "Connection Timeout";
+"The connection timed out, please check your internet connection and try again." = "The connection timed out, please check your internet connection and try again.";
+
+"Could not establish connection" = "Could not establish connection";
+"We could not establish a secure connection to the server, please check your internet connection and try again. If the problem persists, please contact support." = "We could not establish a secure connection to the server, please check your internet connection and try again. If the problem persists, please contact support.";
+
+"Bad URL" = "Bad URL";
+"There is something wrong with the URL you are trying to access. Please try again in a few minutes or contact support if the problem persists." = "There is something wrong with the URL you are trying to access. Please try again in a few minutes or contact support if the problem persists.";
+
+"Server not found" = "Server not found";
+"We could not establish a connection to the server, please check your internet connection and try again. If the problem persists, please contact support." = "We could not establish a connection to the server, please check your internet connection and try again. If the problem persists, please contact support.";
+
+"Lost connection" = "Lost connection";
+"You are not connected to the Internet, please check your connection and try again." = "You are not connected to the Internet, please check your connection and try again.";
+
+"Not found" = "Not found";
+"The resource you are trying to reach does not exist." = "The resource you are trying to reach does not exist.";
+
+"Unknown error" = "Unknown error";
+"An unknown network error occured, please check your internet connection and try again. If the error persists, please contact support." = "An unknown network error occured, please check your internet connection and try again. If the error persists, please contact support.";
+
+"Your request did not return any data." = "Your request did not return any data.";
+
+"An unknown internal error occured, please check your internet connection and try again. If the error persists, please contact support." = "An unknown internal error occured, please check your internet connection and try again. If the error persists, please contact support.";
+
+"There was an error";
