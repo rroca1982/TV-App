@@ -15,9 +15,11 @@ class TableViewDataSource<CellType, ViewModel>: NSObject, UITableViewDataSource 
     CellType: ReusableView,
     ViewModel: ListViewModel {
     
+    // MARK: - Properties
     var viewModel: ViewModel
     let configureCell: (CellType, ViewModel.Model) -> Void
     
+    // MARK: - Init
     init(viewModel: ViewModel, tableView: UITableView, configureCell: @escaping (CellType, ViewModel.Model) -> Void) {
         tableView.register(CellType.self)
         tableView.tableFooterView = UIView.init(frame: .zero)
@@ -25,6 +27,7 @@ class TableViewDataSource<CellType, ViewModel>: NSObject, UITableViewDataSource 
         self.configureCell = configureCell
     }
     
+    // MARK: - UITableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.numberOfRows(section)
     }

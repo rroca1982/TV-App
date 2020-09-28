@@ -9,7 +9,8 @@
 import UIKit
 
 class SeasonListViewController: UIViewController {
-
+    
+    // MARK: - Outlets
     @IBOutlet private weak var tableView: UITableView!
     @IBOutlet private weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet private weak var noResultsLabel: UILabel!
@@ -20,6 +21,7 @@ class SeasonListViewController: UIViewController {
     private var datasource: TableViewDataSource<SimpleTableViewCell, SeasonListViewModel>!
     private let viewModel = SeasonListViewModel(service: ShowsService())
         
+    // MARK: - View controller life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -40,6 +42,7 @@ class SeasonListViewController: UIViewController {
         getData()
     }
     
+    // MARK: - Data Fetch
     func getData() {
         activityIndicator.startAnimating()
         hideNoResultsLabel()
@@ -89,6 +92,7 @@ class SeasonListViewController: UIViewController {
     }
 }
 
+// MARK: - TableView Delegate
 extension SeasonListViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

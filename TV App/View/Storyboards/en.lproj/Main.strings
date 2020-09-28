@@ -1,0 +1,78 @@
+
+/* Class = "UILabel"; text = "Genres"; ObjectID = "0ZA-uQ-Sal"; */
+"0ZA-uQ-Sal.text" = "Genres";
+
+/* Class = "UILabel"; text = "No seasons found"; ObjectID = "37h-sM-qny"; */
+"37h-sM-qny.text" = "No seasons found";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4Ax-mw-gn8"; */
+"4Ax-mw-gn8.text" = "Label";
+
+/* Class = "UILabel"; text = "No episodes found"; ObjectID = "4mb-5K-ddi"; */
+"4mb-5K-ddi.text" = "No episodes found";
+
+/* Class = "UIButton"; normalTitle = "EPISODE GUIDE"; ObjectID = "4pQ-Jh-jQU"; */
+"4pQ-Jh-jQU.normalTitle" = "EPISODE GUIDE";
+
+/* Class = "UILabel"; text = "Information not available"; ObjectID = "6Ld-WK-hlQ"; */
+"6Ld-WK-hlQ.text" = "Information not available";
+
+/* Class = "UILabel"; text = "Labelkddkdkdkdkd\nLabel\nLabel\nLabel"; ObjectID = "6O0-Rd-AZ0"; */
+"6O0-Rd-AZ0.text" = "Labelkddkdkdkdkd\nLabel\nLabel\nLabel";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7e0-wI-2jU"; */
+"7e0-wI-2jU.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7gw-Su-ZFx"; */
+"7gw-Su-ZFx.text" = "Label";
+
+/* Class = "UILabel"; text = "Days:"; ObjectID = "A1Z-r1-iuS"; */
+"A1Z-r1-iuS.text" = "Days:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Bfv-3T-D8B"; */
+"Bfv-3T-D8B.text" = "Label";
+
+/* Class = "UILabel"; text = "Summary"; ObjectID = "KCU-M1-vKS"; */
+"KCU-M1-vKS.text" = "Summary";
+
+/* Class = "UILabel"; text = "Schedule"; ObjectID = "MYT-FQ-iMn"; */
+"MYT-FQ-iMn.text" = "Schedule";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NF5-Ms-Vcc"; */
+"NF5-Ms-Vcc.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ODM-NB-Vul"; */
+"ODM-NB-Vul.text" = "Label";
+
+/* Class = "UISegmentedControl"; WTh-XJ-4Vd.segmentTitles[0] = "Shows"; ObjectID = "WTh-XJ-4Vd"; */
+"WTh-XJ-4Vd.segmentTitles[0]" = "Shows";
+
+/* Class = "UISegmentedControl"; WTh-XJ-4Vd.segmentTitles[1] = "People"; ObjectID = "WTh-XJ-4Vd"; */
+"WTh-XJ-4Vd.segmentTitles[1]" = "People";
+
+/* Class = "UILabel"; text = "Known for"; ObjectID = "WXu-Hp-vx2"; */
+"WXu-Hp-vx2.text" = "Known for";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bAx-nY-dVm"; */
+"bAx-nY-dVm.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bTm-78-yGf"; */
+"bTm-78-yGf.text" = "Label";
+
+/* Class = "UILabel"; text = "Summary"; ObjectID = "pHw-Wq-vRu"; */
+"pHw-Wq-vRu.text" = "Summary";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "sxM-hI-CEX"; */
+"sxM-hI-CEX.text" = "Label";
+
+/* Class = "UILabel"; text = "Time:"; ObjectID = "tzK-nu-6G3"; */
+"tzK-nu-6G3.text" = "Time:";
+
+/* Class = "UITabBarItem"; title = "Shows"; ObjectID = "vCn-Pn-f0C"; */
+"vCn-Pn-f0C.title" = "Shows";
+
+/* Class = "UILabel"; text = "No results found"; ObjectID = "yBw-tE-R0c"; */
+"yBw-tE-R0c.text" = "No results found";
+
+/* Class = "UIButton"; normalTitle = "RETRY"; ObjectID = "za4-uB-feO"; */
+"za4-uB-feO.normalTitle" = "RETRY";

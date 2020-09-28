@@ -10,9 +10,11 @@ import UIKit
 
 class GenreCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak private var holdingView: UIView!
-    @IBOutlet weak private var genreLabel: UILabel!
+    // MARK: - Outlets
+    @IBOutlet private weak var holdingView: UIView!
+    @IBOutlet private weak var genreLabel: UILabel!
     
+    // MARK: - View life cycle
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -20,6 +22,7 @@ class GenreCollectionViewCell: UICollectionViewCell {
         holdingView.layer.cornerRadius = cornerRadius
     }
     
+    // MARK: - Setup
     func update(with viewModel: GenreCollectionCellViewModel) {
         holdingView.backgroundColor = viewModel.labelBackgroundColor
         genreLabel.textColor = viewModel.textColor

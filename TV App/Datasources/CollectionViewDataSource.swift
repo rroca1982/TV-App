@@ -15,15 +15,18 @@ class CollectionViewDataSource<CellType, ViewModel>: NSObject, UICollectionViewD
     CellType: ReusableView,
     ViewModel: ListViewModel {
     
+    // MARK: - Properties
     var viewModel: ViewModel
     let configureCell: (CellType, ViewModel.Model) -> Void
     
+    // MARK: - Init
     init(viewModel: ViewModel, collectionView: UICollectionView, configureCell: @escaping (CellType, ViewModel.Model) -> Void) {
         collectionView.register(CellType.self)
         self.viewModel = viewModel
         self.configureCell = configureCell
     }
     
+    // MARK: - UICollectionViewDataSource
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return viewModel.numberOfRows(section)
     }

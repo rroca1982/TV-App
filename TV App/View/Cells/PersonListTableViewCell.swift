@@ -10,10 +10,12 @@ import UIKit
 
 class PersonListTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var holdingView: UIView!
-    @IBOutlet weak var photoImageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
+    // MARK: - Outlets
+    @IBOutlet private weak var holdingView: UIView!
+    @IBOutlet private weak var photoImageView: UIImageView!
+    @IBOutlet private weak var titleLabel: UILabel!
     
+    // MARK: - View life cycle
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -28,6 +30,7 @@ class PersonListTableViewCell: UITableViewCell {
         photoImageView.image = UIImage.init(named: "posterPlaceholderLarge")
     }
     
+    // MARK - Setup
     func update(with viewModel: PersonListTableViewCellViewModel) {
         titleLabel.text = viewModel.title
         if let pictureUrl = viewModel.photoURL {

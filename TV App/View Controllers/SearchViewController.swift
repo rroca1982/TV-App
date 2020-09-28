@@ -66,8 +66,9 @@ class SearchViewController: UIViewController {
         let searchBar = searchController.searchBar
         searchBar.placeholder = "Search for TV Shows or people".localized()
         searchBar.searchBarStyle = .default
-        searchBar.searchTextField.backgroundColor = .white
-        searchBar.tintColor = UIColor.white
+        searchBar.searchTextField.backgroundColor = .systemBackground
+        searchBar.searchTextField.textColor = .darkGrayText
+        searchBar.tintColor = .systemBackground
         
         searchBar.delegate = self
         navigationItem.searchController = searchController
