@@ -11,10 +11,10 @@ import Foundation
 class GenresViewModel: ListViewModel {
     typealias Model = String
 
+    // MARK: - Properties
     private(set) var items: [String] = [String]()
     
     // MARK: - ListViewModel Conformance
-
     func addItems(_ items: [Model]) {
         self.items.append(contentsOf: items)
     }

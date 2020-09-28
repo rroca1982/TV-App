@@ -25,11 +25,14 @@ class PersonDetailsViewController: UIViewController {
     
     var person: Person!
     
+    // MARK: - View controller life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
         title = "Person Details".localized()
-                
+        
+        navigationItem.largeTitleDisplayMode = .never
+
         let posterCornerRadius = CGFloat(6.0)
         photoHoldingView.addDefaultPosterShadow()
         photoImageView.layer.cornerRadius = posterCornerRadius
@@ -119,6 +122,7 @@ class PersonDetailsViewController: UIViewController {
     }
 }
 
+// MARK: - TableView Delegate
 extension PersonDetailsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: .showDetailsFromPerson, sender: self)

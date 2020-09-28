@@ -15,6 +15,14 @@ extension UIColor {
         return UIColor.init(named: "primaryColor")!
     }
     
+    class var darkGrayText: UIColor {
+        return UIColor.init(named: "darkGrayText")!
+    }
+    
+    class var lightGrayText: UIColor {
+        return UIColor.init(named: "lightGrayText")!
+    }
+    
     class var randomColor: UIColor {
         let salmonColor = UIColor.init(r: 255, g: 95, b: 88)
         let orangeColor = UIColor.init(r: 250, g: 153, b: 23)

@@ -10,8 +10,10 @@ import UIKit
 
 class SimpleTableViewCell: UITableViewCell {
 
+    // MARK: - Outlets
     @IBOutlet private weak var titleLabel: UILabel!
     
+    // MARK: - Setup
     func update(with viewModel: SimpleTableViewCellViewModel) {
         titleLabel.text = viewModel.title
     }

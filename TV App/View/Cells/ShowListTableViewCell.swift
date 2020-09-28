@@ -10,13 +10,15 @@ import UIKit
 
 class ShowListTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var posterHoldingView: UIView!
-    @IBOutlet weak var posterImageView: UIImageView!
-    @IBOutlet weak var showTitleLabel: UILabel!
+    // MARK: - Outlets
+    @IBOutlet private weak var posterHoldingView: UIView!
+    @IBOutlet private weak var posterImageView: UIImageView!
+    @IBOutlet private weak var showTitleLabel: UILabel!
     
-    @IBOutlet weak var genreHoldingView: UIView!
-    @IBOutlet weak var genreLabel: UILabel!
+    @IBOutlet private weak var genreHoldingView: UIView!
+    @IBOutlet private weak var genreLabel: UILabel!
     
+    // MARK: - View life cycle
     override func awakeFromNib() {
         super.awakeFromNib()
 
@@ -34,6 +36,7 @@ class ShowListTableViewCell: UITableViewCell {
         posterImageView.image = UIImage.init(named: "posterPlaceholderLarge")
     }
 
+    // MARK: - Setup
     func update(with viewModel: ShowListTableViewCellViewModel) {
         if let posterImageURL = viewModel.posterImageURL {
             posterImageView.setImage(withURL: posterImageURL.absoluteString, placeholderImage: viewModel.posterPlaceholderImage!)
